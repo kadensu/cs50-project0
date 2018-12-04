@@ -1,0 +1,45 @@
+$page-color:lightcyan;
+
+body {
+    background-color: $page-color;
+}
+
+@media (min-width: 500px) {
+    img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 499px) {
+    img {
+        width: 100%;
+    }
+}
+
+.cell {
+    padding: 20px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.cell:hover {
+    background-color: grey;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    text-align: center;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-content: center;
+}
